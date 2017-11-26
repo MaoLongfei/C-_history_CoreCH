@@ -1,0 +1,11 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+const unsigned invalid_id = 4294967295u;
+
+//! inf_weight is chosen so that it can be doubled without overflowing. This avoid numerous overflow checks.
+const unsigned inf_weight = 2147483647u;
+
+const int maxCapacity = 500000;
+
+#endif
